@@ -6,6 +6,7 @@ Assignment 1: Sockets, Mininet, & Performance
 Part 1: Write Iperfer
 
 Client Mode
+
   Iperfer -c -h <server hostname> -p <server port> -t <time>
  
   Error: missing or additional arguments
@@ -18,6 +19,7 @@ Client Mode
   sent=6543 KB rate=5.234 Mbps
 
 Server Mode:
+  
   Iperfer -s -p <listen port>
   
   Error: missing or additional arguments
