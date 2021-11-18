@@ -35,7 +35,7 @@ int main(int argc, char const *argv[])
 	    struct sockaddr_in address;
 	    int opt = 1;
 	    int addrlen = sizeof(address);
-	    char buffer[1000] = {0};
+	    char buffer[1000000] = {0};
 	    char FinishTest[10];
 	    char *acknowledgement = "RECEIVED";
 	    time_t start,end;
